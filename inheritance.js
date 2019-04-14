@@ -1,5 +1,5 @@
 class Person {
-    constructor(name, first, second) {
+    constructor (name, first, second) {
         this.name = name;
         this.first = first;
         this.second = second;
@@ -11,8 +11,8 @@ class Person {
 }
 
 class PersonPlus extends Person {
-    constructor(name, first, second, third) {
-        super(name, first, second);
+    constructor (name, first, second, third) {
+        super (name, first, second);
         this.third = third;
     }
 
